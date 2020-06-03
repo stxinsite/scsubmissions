@@ -19,3 +19,40 @@ Documentation repo commit hash : f642e1dc746cd8e362dc8761407fb6794ef0ae3f	refs/t
 Intel example repo commit hash : ab3a338bb4fe253f1b1e35554d854faf249d5d35	refs/tags/q19.2.0
 BittwWare example repo commit hash : ba547b6befa9ccb25ec7079b00fbe26c38c321c9	refs/tags/1.7.0
 
+
+Third party software
+
+Intel OpenCL SDK
+
+https://www.intel.com/content/www/us/en/programmable/products/design-software/embedded-software-developers/opencl/support.html
+
+Intel 2-D FFT OpenCL
+
+https://www.intel.com/content/www/us/en/programmable/products/design-software/embedded-software-developers/opencl/support.html#designexamples
+
+https://www.intel.com/content/www/us/en/programmable/support/support-resources/design-examples/design-software/opencl/fft-2d.html
+
+(This 2D FFT appears to use the kernel that is also found in http://github.com/pc2/fft3d-fpga/fft3d-kernels/fft_8.cl)
+
+We use the same .cl file for our FFT kernel.
+
+Bittware Hardware
+
+https://www.bittware.com/wp-content/uploads/datasheets/ds-520n-mx.pdf
+
+
+
+Bittware BSP
+
+
+https://www.bittware.com/fpga/opencl/
+
+
+
+FFTW  (used only for checking hardware results, not in experiment flow)
+
+http://www.fftw.org/
+
+Python (used only for developing test datasets, using numpy, not in experiment flow)
+
+GCC6.3  (for compiling host software, not in the line of experiment)
