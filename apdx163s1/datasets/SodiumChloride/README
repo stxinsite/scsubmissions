@@ -1,0 +1,24 @@
+This paper is part of an overall effort to build an "FPGA" platform for the OpenMM Molecular Modelling code to parallel the OpenMM Reference Platform (C++ code on the CPU) and the CUDA Platform (GPU based)
+
+
+We added instrumentation code to OpenMM to save reference datasets so that we could be sure our FPGA implementation tracks the reference platform.
+
+The FFT work reported here is part of the "Long Range" processing flow in OpenMM that models long range electrostatic interactions among atoms.
+
+We used the "Sodium Chloride" test in OpenMM, which consists of 128 atoms.
+
+We save, for a single timestep:
+
+Atom - each atom has an XYZ position and a charge
+PMEinput - single precision floating point dataset after the OpenMM charge spreading step.  It is 128x128x128 single precision floating point (IEEE) in order X then Y then Z
+
+eterm - this is the Greens's function kernel, which is multiplied in Fourier Space.  It is computed on the host, since it remains valid for many timesteps.
+It is single precision read data, 128x128x128 in XYZ order
+
+PMEoutput - output from the inverse FFT step of the Particle Mesh Ewald.  This is the potential field data is single precision complex.  the data ordering is X then Y then Z for 128x128x128
+
+force - calculated forces on the atoms from the OpenMM force interpolation stage
+
+Our test program uses the FPGA to run the charge spreading step to calculate the pmeinput data set, then compares it to the pmeinput.bin file.  Squared error for this step is about -110 dB.  THe FPGA then calculates the forward and inverse FFTs (the Particle Mesh Ewald itself) and the result is compared to pmeoutput.bin, which gives about -109 dB error.  Finally, the FPGA runs the force interpolation kernel to generate output forces on each atom, and the result is compared to forces.bin, with an error around -100 dB,
+
+The file testpme.py is a python program that uses Numpy to create the .bin files from corresponding text files output by our OpenMM instrumentation.  128x128x128 text files are very large.  We will try to place them on Z...
