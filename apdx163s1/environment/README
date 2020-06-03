@@ -1,0 +1,21 @@
+We use stxexpfpga01 as a head node and compilation machine,
+It also has two older Bittware 520N FPGAs plugged in, which we are no longer
+using since they have only 40 Gbps links
+
+We use stxexpfpga02 as the FPGA node.  It has four Bittware 520N-MX cards with 100 Gbps links,
+
+the -environment files are the output from the SC provided collect-environment.sh file (copied here)
+
+the -fpga files are the output from the Intel FPGA SDK command "aocl list-devices"
+
+FPGA support software changes rapidly.  We have multiple versions installed and the work in the paper was done with IntelFPGA_pro 19.3 installed as /zfs/intelFPGA_pro/19.3/
+
+Version information for the board support package is
+
+[lstewart2@stxexpfpga01 environment]$ cat /zfs/intelFPGA_pro/19.3/hld/board/s10mx/version_info.txt 
+Firmware repo commit hash : 2f65094b441334158b6475c616a3b493f1497670	refs/tags/1.7.0
+Software repo commit hash : ff4a4e60e35c082e72b24a41bdc0d32b34c0067d	refs/tags/1.7.0
+Documentation repo commit hash : f642e1dc746cd8e362dc8761407fb6794ef0ae3f	refs/tags/1.7.0
+Intel example repo commit hash : ab3a338bb4fe253f1b1e35554d854faf249d5d35	refs/tags/q19.2.0
+BittwWare example repo commit hash : ba547b6befa9ccb25ec7079b00fbe26c38c321c9	refs/tags/1.7.0
+
