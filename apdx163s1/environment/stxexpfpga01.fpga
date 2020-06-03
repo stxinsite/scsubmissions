@@ -1,0 +1,69 @@
+--------------------------------------------------------------------
+Device Name:
+acl0
+
+BSP Install Location:
+/zfs/intelFPGA_pro/19.1/hld/board/bittware_pcie/s10
+
+Vendor: BittWare ltd
+MMD INFO : QSFP Module 0 : serial number : S19100058 Power_Class : 0
+MMD INFO : QSFP Module 0 : temperature : -2.00 degC
+MMD INFO : QSFP Module 1 : serial number : S19100058 Power_Class : 0
+MMD INFO : QSFP Module 1 : temperature : -2.00 degC
+MMD INFO : QSFP Module 2 : serial number : S19100058 Power_Class : 0
+MMD INFO : QSFP Module 2 : temperature : -2.00 degC
+MMD INFO : QSFP Module 3 : serial number : S19100058 Power_Class : 0
+MMD INFO : QSFP Module 3 : temperature : -2.00 degC
+
+Phys Dev Name      Status   Information
+
+aclbitt_s10_pcie0  Passed   BittWare Stratix 10 OpenCL platform (aclbitt_s10_pcie0)
+                            PCIe dev_id = 5170, sub_dev_id = 5204, bus:slot.func = 1b:00.00, Gen3 x8
+                            Card serial number = 7110121.
+                            FPGA temperature = 49 degrees C.
+                            Total Card Power Usage = 64.2891 Watts.
+                            Serial Channel 0 status reg = 0x0ff11ff1.
+                            Serial Channel 1 status reg = 0x0ff11ff1.
+                            Serial Channel 2 status reg = 0x0ff11ff1.
+                            Serial Channel 3 status reg = 0x0ff11ff1.
+                            Current PR ID reg = 0x7f990f27(2140737319).
+
+DIAGNOSTIC_PASSED
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Device Name:
+acl1
+
+BSP Install Location:
+/zfs/intelFPGA_pro/19.1/hld/board/bittware_pcie/s10
+
+Vendor: BittWare ltd
+MMD INFO : QSFP Module 0 : serial number : S19100058 Power_Class : 0
+MMD INFO : QSFP Module 0 : temperature : -2.00 degC
+MMD INFO : QSFP Module 1 : serial number : S19100058 Power_Class : 0
+MMD INFO : QSFP Module 1 : temperature : -2.00 degC
+MMD INFO : QSFP Module 2 : serial number : S19100058 Power_Class : 0
+MMD INFO : QSFP Module 2 : temperature : -2.00 degC
+MMD INFO : QSFP Module 3 : serial number : S19100058 Power_Class : 0
+MMD INFO : QSFP Module 3 : temperature : -2.00 degC
+
+Phys Dev Name      Status   Information
+
+aclbitt_s10_pcie1  Passed   BittWare Stratix 10 OpenCL platform (aclbitt_s10_pcie1)
+                            PCIe dev_id = 5170, sub_dev_id = 5204, bus:slot.func = 60:00.00, Gen3 x8
+                            Card serial number = 7110122.
+                            FPGA temperature = 51 degrees C.
+                            Total Card Power Usage = 59.8225 Watts.
+                            Serial Channel 0 status reg = 0x0ff11ff1.
+                            Serial Channel 1 status reg = 0x0ff11ff1.
+                            Serial Channel 2 status reg = 0x0ff11ff1.
+                            Serial Channel 3 status reg = 0x0ff11ff1.
+                            Current PR ID reg = 0x7f990f27(2140737319).
+
+DIAGNOSTIC_PASSED
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Warning:
+No devices attached for package:
+/zfs/intelFPGA_pro/19.3/hld/board/s10mx
+--------------------------------------------------------------------

@@ -1,0 +1,64 @@
+--------------------------------------------------------------------
+Device Name:
+acl0
+
+BSP Install Location:
+/zfs/intelFPGA_pro/19.3/hld/board/s10mx
+
+Vendor: BittWare ltd
+
+Phys Dev Name  Status   Information
+
+aclbitt_s10mx_pcie0Passed   BittWare Stratix 10 MX OpenCL platform (aclbitt_s10mx_pcie0)
+                       PCIe dev_id = 5170, bus:slot.func = 1a:00.00, Gen3 x8
+
+DIAGNOSTIC_PASSED
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Device Name:
+acl1
+
+BSP Install Location:
+/zfs/intelFPGA_pro/19.3/hld/board/s10mx
+
+Vendor: BittWare ltd
+
+Phys Dev Name  Status   Information
+
+aclbitt_s10mx_pcie1Passed   BittWare Stratix 10 MX OpenCL platform (aclbitt_s10mx_pcie1)
+                       PCIe dev_id = 5170, bus:slot.func = 60:00.00, Gen3 x8
+
+DIAGNOSTIC_PASSED
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Device Name:
+acl2
+
+BSP Install Location:
+/zfs/intelFPGA_pro/19.3/hld/board/s10mx
+
+Vendor: BittWare ltd
+
+Phys Dev Name  Status   Information
+
+aclbitt_s10mx_pcie2Passed   BittWare Stratix 10 MX OpenCL platform (aclbitt_s10mx_pcie2)
+                       PCIe dev_id = 5170, bus:slot.func = da:00.00, Gen3 x8
+
+DIAGNOSTIC_PASSED
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Device Name:
+acl3
+
+BSP Install Location:
+/zfs/intelFPGA_pro/19.3/hld/board/s10mx
+
+Vendor: BittWare ltd
+
+Phys Dev Name  Status   Information
+
+aclbitt_s10mx_pcie3Passed   BittWare Stratix 10 MX OpenCL platform (aclbitt_s10mx_pcie3)
+                       PCIe dev_id = 5170, bus:slot.func = db:00.00, Gen3 x8
+
+DIAGNOSTIC_PASSED
+--------------------------------------------------------------------

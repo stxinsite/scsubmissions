@@ -1,0 +1,479 @@
+XDG_SESSION_ID=661
+HOSTNAME=stxexpfpga02
+TERM=xterm-256color
+SHELL=/bin/bash
+HISTSIZE=
+QTDIR=/usr/lib64/qt-3.3
+QT_GRAPHICSSYSTEM_CHECKED=1
+USER=USER
+LS_COLORS=rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:
+SUDO_USER=vsachde
+SUDO_UID=1002
+USERNAME=USER
+MAIL=/var/spool/mail/vsachde
+PATH=/sbin:/bin:/usr/sbin:/usr/bin
+_=/bin/env
+PWD=/zfs/lstewart2/Author-Kit
+LANG=en_US.UTF-8
+MODULEPATH=/usr/share/Modules/modulefiles:/etc/modulefiles
+LOADEDMODULES=
+HOME=/USER
+SUDO_COMMAND=/bin/su USER
+SHLVL=2
+LOGNAME=USER
+XDG_DATA_DIRS=/USER/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+MODULESHOME=/usr/share/Modules
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+SUDO_GID=1000
+BASH_FUNC_module()=() {  eval `/usr/bin/modulecmd bash $*`
+}
++ lsb_release -a
+LSB Version:	:core-4.1-amd64:core-4.1-noarch:cxx-4.1-amd64:cxx-4.1-noarch:desktop-4.1-amd64:desktop-4.1-noarch:languages-4.1-amd64:languages-4.1-noarch:printing-4.1-amd64:printing-4.1-noarch
+Distributor ID:	CentOS
+Description:	CentOS Linux release 7.3.1611 (Core) 
+Release:	7.3.1611
+Codename:	Core
++ uname -a
+Linux stxexpfpga02 3.10.0-514.el7.x86_64 #1 SMP Tue Nov 22 16:42:41 UTC 2016 x86_64 x86_64 x86_64 GNU/Linux
++ lscpu
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                32
+On-line CPU(s) list:   0-31
+Thread(s) per core:    2
+Core(s) per socket:    8
+Socket(s):             2
+NUMA node(s):          2
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 85
+Model name:            Intel(R) Xeon(R) Silver 4110 CPU @ 2.10GHz
+Stepping:              4
+CPU MHz:               934.664
+CPU max MHz:           3000.0000
+CPU min MHz:           800.0000
+BogoMIPS:              4200.00
+Virtualization:        VT-x
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              1024K
+L3 cache:              11264K
+NUMA node0 CPU(s):     0-7,16-23
+NUMA node1 CPU(s):     8-15,24-31
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch ida arat epb pln pts dtherm hwp hwp_act_window hwp_epp hwp_pkg_req intel_pt tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local
++ cat /proc/meminfo
+MemTotal:       131482396 kB
+MemFree:        103462344 kB
+MemAvailable:   126470564 kB
+Buffers:            2244 kB
+Cached:         23309968 kB
+SwapCached:            0 kB
+Active:          9339272 kB
+Inactive:       14087244 kB
+Active(anon):     115744 kB
+Inactive(anon):    16748 kB
+Active(file):    9223528 kB
+Inactive(file): 14070496 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+SwapTotal:       4194300 kB
+SwapFree:        4194300 kB
+Dirty:                44 kB
+Writeback:             0 kB
+AnonPages:        114564 kB
+Mapped:            48244 kB
+Shmem:             18188 kB
+Slab:            2720208 kB
+SReclaimable:     340280 kB
+SUnreclaim:      2379928 kB
+KernelStack:       12512 kB
+PageTables:         9956 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    69935496 kB
+Committed_AS:     820604 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:      968284 kB
+VmallocChunk:   34291640464 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:     10240 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:      276608 kB
+DirectMap2M:     7753728 kB
+DirectMap1G:    127926272 kB
++ inxi -F -c0
+./collect_environment.sh: line 14: inxi: command not found
++ lsblk -a
+NAME                        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda                           8:0    0   1.8T  0 disk 
+├─sda1                        8:1    0   487M  0 part 
+├─sda2                        8:2    0     1K  0 part 
+└─sda5                        8:5    0   1.8T  0 part 
+  ├─stxexpfpga01--vg-root   253:3    0   1.7T  0 lvm  
+  └─stxexpfpga01--vg-swap_1 253:4    0 127.7G  0 lvm  
+sdb                           8:16   0   1.8T  0 disk 
+├─sdb1                        8:17   0   200M  0 part 
+├─sdb2                        8:18   0     1G  0 part /boot
+└─sdb3                        8:19   0   1.8T  0 part 
+  ├─cl00-root               253:0    0    50G  0 lvm  /
+  ├─cl00-swap               253:1    0     4G  0 lvm  [SWAP]
+  └─cl00-home               253:2    0   1.8T  0 lvm  /home
+sdc                           8:32   0   1.8T  0 disk 
+├─sdc1                        8:33   0   1.8T  0 part 
+└─sdc9                        8:41   0     8M  0 part 
+sdd                           8:48   0   1.8T  0 disk 
+├─sdd1                        8:49   0   1.8T  0 part 
+└─sdd9                        8:57   0     8M  0 part 
+sde                           8:64   0 223.6G  0 disk 
+├─sde1                        8:65   0   487M  0 part 
+├─sde2                        8:66   0     1K  0 part 
+└─sde5                        8:69   0 223.1G  0 part 
+sdf                           8:80   0   1.8T  0 disk 
+├─sdf1                        8:81   0   1.8T  0 part 
+└─sdf9                        8:89   0     8M  0 part 
+sdg                           8:96   0   1.8T  0 disk 
+├─sdg1                        8:97   0   1.8T  0 part 
+└─sdg9                        8:105  0     8M  0 part 
+sdh                           8:112  0   1.8T  0 disk 
+├─sdh1                        8:113  0   1.8T  0 part 
+└─sdh9                        8:121  0     8M  0 part 
++ lsscsi -s
+[0:0:0:0]    disk    ATA      ST2000NX0253     SN04  /dev/sda   2.00TB
+[1:0:0:0]    disk    ATA      ST2000NX0253     SN04  /dev/sdb   2.00TB
+[2:0:0:0]    disk    ATA      ST2000NX0253     SN04  /dev/sdc   2.00TB
+[3:0:0:0]    disk    ATA      ST2000NX0253     SN04  /dev/sdd   2.00TB
+[4:0:0:0]    disk    ATA      PNY CS900 240GB  0211  /dev/sde    240GB
+[5:0:0:0]    disk    ATA      ST2000NX0253     SN04  /dev/sdf   2.00TB
+[6:0:0:0]    disk    ATA      ST2000NX0253     SN04  /dev/sdg   2.00TB
+[7:0:0:0]    disk    ATA      ST2000NX0253     SN04  /dev/sdh   2.00TB
++ module list
+++ /usr/bin/modulecmd bash list
+No Modulefiles Currently Loaded.
++ eval
++ nvidia-smi
+NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
+
++ cat
++ lshw -short -quiet -sanitize
+H/W path               Device      Class          Description
+=============================================================
+                                   system         B7109F77DV10E4HR-2T-N (empty)
+/0                                 bus            S7109GM2NR-2T
+/0/0                               memory         64KiB BIOS
+/0/3a                              memory         128GiB System Memory
+/0/3a/0                            memory         16GiB DIMM DDR4 Synchronous 2666 MHz (0.4 ns)
+/0/3a/1                            memory         [empty]
+/0/3a/2                            memory         16GiB DIMM DDR4 Synchronous 2666 MHz (0.4 ns)
+/0/3a/3                            memory         [empty]
+/0/3a/4                            memory         16GiB DIMM DDR4 Synchronous 2666 MHz (0.4 ns)
+/0/3a/5                            memory         [empty]
+/0/3a/6                            memory         16GiB DIMM DDR4 Synchronous 2666 MHz (0.4 ns)
+/0/3a/7                            memory         [empty]
+/0/3a/8                            memory         [empty]
+/0/3a/9                            memory         [empty]
+/0/3a/a                            memory         [empty]
+/0/3a/b                            memory         [empty]
+/0/3a/c                            memory         16GiB DIMM DDR4 Synchronous 2666 MHz (0.4 ns)
+/0/3a/d                            memory         [empty]
+/0/3a/e                            memory         16GiB DIMM DDR4 Synchronous 2666 MHz (0.4 ns)
+/0/3a/f                            memory         [empty]
+/0/3a/10                           memory         16GiB DIMM DDR4 Synchronous 2666 MHz (0.4 ns)
+/0/3a/11                           memory         [empty]
+/0/3a/12                           memory         16GiB DIMM DDR4 Synchronous 2666 MHz (0.4 ns)
+/0/3a/13                           memory         [empty]
+/0/3a/14                           memory         [empty]
+/0/3a/15                           memory         [empty]
+/0/3a/16                           memory         [empty]
+/0/3a/17                           memory         [empty]
+/0/62                              memory         512KiB L1 cache
+/0/63                              memory         8MiB L2 cache
+/0/64                              memory         11MiB L3 cache
+/0/65                              processor      Intel(R) Xeon(R) Silver 4110 CPU @ 2.10GHz
+/0/66                              memory         512KiB L1 cache
+/0/67                              memory         8MiB L2 cache
+/0/68                              memory         11MiB L3 cache
+/0/69                              processor      Intel(R) Xeon(R) Silver 4110 CPU @ 2.10GHz
+/0/100                             bridge         Intel Corporation
+/0/100/4                           generic        Sky Lake-E CBDMA Registers
+/0/100/4.1                         generic        Sky Lake-E CBDMA Registers
+/0/100/4.2                         generic        Sky Lake-E CBDMA Registers
+/0/100/4.3                         generic        Sky Lake-E CBDMA Registers
+/0/100/4.4                         generic        Sky Lake-E CBDMA Registers
+/0/100/4.5                         generic        Sky Lake-E CBDMA Registers
+/0/100/4.6                         generic        Sky Lake-E CBDMA Registers
+/0/100/4.7                         generic        Sky Lake-E CBDMA Registers
+/0/100/5                           generic        Sky Lake-E MM/Vt-d Configuration Registers
+/0/100/5.2                         generic        Intel Corporation
+/0/100/5.4                         generic        Intel Corporation
+/0/100/8                           generic        Sky Lake-E Ubox Registers
+/0/100/8.1                         generic        Sky Lake-E Ubox Registers
+/0/100/8.2                         generic        Sky Lake-E Ubox Registers
+/0/100/11                          generic        Intel Corporation
+/0/100/11.1                        generic        Intel Corporation
+/0/100/11.5            scsi0       storage        Lewisburg SSATA Controller [AHCI mode]
+/0/100/11.5/0          /dev/sda    disk           2TB ST2000NX0253
+/0/100/11.5/0/1        /dev/sda1   volume         487MiB Linux filesystem partition
+/0/100/11.5/0/2        /dev/sda2   volume         1862GiB Extended partition
+/0/100/11.5/0/2/5      /dev/sda5   volume         1862GiB Linux LVM Physical Volume partition
+/0/100/11.5/1          /dev/sdb    disk           2TB ST2000NX0253
+/0/100/11.5/1/1        /dev/sdb1   volume         199MiB Windows FAT volume
+/0/100/11.5/1/2        /dev/sdb2   volume         1023MiB data partition
+/0/100/11.5/1/3        /dev/sdb3   volume         1861GiB LVM Physical Volume
+/0/100/11.5/2          /dev/sdc    disk           2TB ST2000NX0253
+/0/100/11.5/2/1        /dev/sdc1   volume         1863GiB OS X ZFS partition or Solaris /usr partition
+/0/100/11.5/2/9        /dev/sdc9   volume         8191KiB reserved partition
+/0/100/11.5/3          /dev/sdd    disk           2TB ST2000NX0253
+/0/100/11.5/3/1        /dev/sdd1   volume         1863GiB OS X ZFS partition or Solaris /usr partition
+/0/100/11.5/3/9        /dev/sdd9   volume         8191KiB reserved partition
+/0/100/11.5/4          /dev/sde    disk           240GB PNY CS900 240GB
+/0/100/11.5/4/1        /dev/sde1   volume         487MiB Linux filesystem partition
+/0/100/11.5/4/2        /dev/sde2   volume         223GiB Extended partition
+/0/100/11.5/4/2/5      /dev/sde5   volume         223GiB Linux LVM Physical Volume partition
+/0/100/11.5/5          /dev/sdf    disk           2TB ST2000NX0253
+/0/100/11.5/5/1        /dev/sdf1   volume         1863GiB OS X ZFS partition or Solaris /usr partition
+/0/100/11.5/5/9        /dev/sdf9   volume         8191KiB reserved partition
+/0/100/14                          bus            Lewisburg USB 3.0 xHCI Controller
+/0/100/14/0            usb1        bus            xHCI Host Controller
+/0/100/14/0/1                      bus            USB2.0 Hub
+/0/100/14/0/1/1                    generic        FT230X Basic UART
+/0/100/14/0/1/2                    generic        S10 520MX Board
+/0/100/14/0/1/3                    bus            USB2.0 Hub
+/0/100/14/0/1/3/1                  generic        FT230X Basic UART
+/0/100/14/0/1/3/2                  generic        S10 520MX Board
+/0/100/14/0/1/3/3                  bus            USB2.0 Hub
+/0/100/14/0/1/3/3/1                generic        FT230X Basic UART
+/0/100/14/0/1/3/3/2                generic        S10 520MX Board
+/0/100/14/0/1/3/3/3                bus            USB2.0 Hub
+/0/100/14/0/1/3/3/3/1              generic        FT230X Basic UART
+/0/100/14/0/1/3/3/3/2              generic        S10 520MX Board
+/0/100/14/0/1/3/3/3/4              generic        520-NMX
+/0/100/14/0/1/3/3/4                generic        520-NMX
+/0/100/14/0/1/3/4                  generic        520-NMX
+/0/100/14/0/1/4                    generic        520-NMX
+/0/100/14/1            usb2        bus            xHCI Host Controller
+/0/100/14.2                        generic        Intel Corporation
+/0/100/16                          communication  Lewisburg CSME: HECI #1
+/0/100/16.1                        communication  Lewisburg CSME: HECI #2
+/0/100/16.4                        communication  Lewisburg CSME: HECI #3
+/0/100/17              scsi6       storage        Lewisburg SATA Controller [AHCI mode]
+/0/100/17/0            /dev/sdg    disk           2TB ST2000NX0253
+/0/100/17/0/1          /dev/sdg1   volume         1863GiB OS X ZFS partition or Solaris /usr partition
+/0/100/17/0/9          /dev/sdg9   volume         8191KiB reserved partition
+/0/100/17/1            /dev/sdh    disk           2TB ST2000NX0253
+/0/100/17/1/1          /dev/sdh1   volume         1863GiB OS X ZFS partition or Solaris /usr partition
+/0/100/17/1/9          /dev/sdh9   volume         8191KiB reserved partition
+/0/100/1c                          bridge         Lewisburg PCI Express Root Port #1
+/0/100/1c/0            enp1s0f0    network        Ethernet Controller 10G X550T
+/0/100/1c/0.1          enp1s0f1    network        Ethernet Controller 10G X550T
+/0/100/1c.5                        bridge         Lewisburg PCI Express Root Port #6
+/0/100/1c.5/0                      bridge         AST1150 PCI-to-PCI Bridge
+/0/100/1c.5/0/0                    display        ASPEED Graphics Family
+/0/100/1f                          bridge         Lewisburg LPC Controller
+/0/100/1f.2                        memory         Memory controller
+/0/100/1f.4                        bus            Lewisburg SMBus
+/0/100/1f.5                        bus            Lewisburg SPI Controller
+/0/101                             bridge         Sky Lake-E PCI Express Root Port 1A
+/0/101/0                           bridge         PEX 8747 48-Lane, 5-Port PCI Express Gen 3 (8.0 GT/s) Switch
+/0/101/0/8                         bridge         PEX 8747 48-Lane, 5-Port PCI Express Gen 3 (8.0 GT/s) Switch
+/0/101/0/8/0                       generic        Altera Corporation
+/0/101/0/10                        bridge         PEX 8747 48-Lane, 5-Port PCI Express Gen 3 (8.0 GT/s) Switch
+/0/1                               generic        Intel Corporation
+/0/2                               generic        Sky Lake-E RAS Configuration Registers
+/0/3                               generic        Intel Corporation
+/0/6                               generic        Sky Lake-E CHA Registers
+/0/7                               generic        Sky Lake-E CHA Registers
+/0/9                               generic        Sky Lake-E CHA Registers
+/0/a                               generic        Sky Lake-E CHA Registers
+/0/b                               generic        Sky Lake-E CHA Registers
+/0/c                               generic        Sky Lake-E CHA Registers
+/0/d                               generic        Sky Lake-E CHA Registers
+/0/e                               generic        Sky Lake-E CHA Registers
+/0/f                               generic        Sky Lake-E CHA Registers
+/0/10                              generic        Sky Lake-E CHA Registers
+/0/11                              generic        Sky Lake-E CHA Registers
+/0/12                              generic        Sky Lake-E CHA Registers
+/0/13                              generic        Sky Lake-E CHA Registers
+/0/14                              generic        Sky Lake-E CHA Registers
+/0/15                              generic        Sky Lake-E CHA Registers
+/0/16                              generic        Sky Lake-E CHA Registers
+/0/17                              generic        Sky Lake-E CHA Registers
+/0/18                              generic        Sky Lake-E CHA Registers
+/0/19                              generic        Sky Lake-E CHA Registers
+/0/1a                              generic        Sky Lake-E CHA Registers
+/0/1b                              generic        Sky Lake-E CHA Registers
+/0/1c                              generic        Sky Lake-E CHA Registers
+/0/1d                              generic        Sky Lake-E CHA Registers
+/0/1e                              generic        Sky Lake-E CHA Registers
+/0/1f                              generic        Sky Lake-E PCU Registers
+/0/20                              generic        Sky Lake-E PCU Registers
+/0/21                              generic        Sky Lake-E PCU Registers
+/0/22                              generic        Sky Lake-E PCU Registers
+/0/23                              generic        Sky Lake-E PCU Registers
+/0/24                              generic        Sky Lake-E PCU Registers
+/0/25                              generic        Sky Lake-E PCU Registers
+/0/26                              generic        Intel Corporation
+/0/27                              generic        Sky Lake-E RAS Configuration Registers
+/0/28                              generic        Intel Corporation
+/0/29                              generic        Intel Corporation
+/0/2a                              generic        Intel Corporation
+/0/2b                              generic        Intel Corporation
+/0/2c                              generic        Intel Corporation
+/0/2d                              generic        Intel Corporation
+/0/2e                              generic        Intel Corporation
+/0/2f                              generic        Intel Corporation
+/0/30                              generic        Intel Corporation
+/0/31                              generic        Intel Corporation
+/0/32                              generic        Intel Corporation
+/0/33                              generic        Intel Corporation
+/0/34                              generic        Intel Corporation
+/0/35                              generic        Intel Corporation
+/0/36                              generic        Intel Corporation
+/0/37                              generic        Intel Corporation
+/0/38                              generic        Intel Corporation
+/0/39                              generic        Intel Corporation
+/0/3b                              generic        Intel Corporation
+/0/3c                              generic        Intel Corporation
+/0/3d                              generic        Intel Corporation
+/0/3e                              generic        Intel Corporation
+/0/3f                              generic        Intel Corporation
+/0/40                              generic        Intel Corporation
+/0/41                              generic        Intel Corporation
+/0/42                              generic        Intel Corporation
+/0/43                              generic        Intel Corporation
+/0/102                             bridge         Sky Lake-E PCI Express Root Port 1A
+/0/102/0                           bridge         PEX 8747 48-Lane, 5-Port PCI Express Gen 3 (8.0 GT/s) Switch
+/0/102/0/8                         bridge         PEX 8747 48-Lane, 5-Port PCI Express Gen 3 (8.0 GT/s) Switch
+/0/102/0/8/0                       generic        Altera Corporation
+/0/102/0/10                        bridge         PEX 8747 48-Lane, 5-Port PCI Express Gen 3 (8.0 GT/s) Switch
+/0/44                              generic        Intel Corporation
+/0/45                              generic        Sky Lake-E RAS Configuration Registers
+/0/46                              generic        Intel Corporation
+/0/47                              generic        Intel Corporation
+/0/48                              generic        Intel Corporation
+/0/49                              generic        Intel Corporation
+/0/4a                              generic        Intel Corporation
+/0/4b                              generic        Sky Lake-E M3KTI Registers
+/0/4c                              generic        Sky Lake-E M3KTI Registers
+/0/4d                              generic        Sky Lake-E M3KTI Registers
+/0/4e                              generic        Sky Lake-E M2PCI Registers
+/0/4f                              generic        Sky Lake-E M2PCI Registers
+/0/50                              generic        Sky Lake-E M2PCI Registers
+/0/4                               generic        Sky Lake-E CBDMA Registers
+/0/4.1                             generic        Sky Lake-E CBDMA Registers
+/0/4.2                             generic        Sky Lake-E CBDMA Registers
+/0/4.3                             generic        Sky Lake-E CBDMA Registers
+/0/4.4                             generic        Sky Lake-E CBDMA Registers
+/0/4.5                             generic        Sky Lake-E CBDMA Registers
+/0/4.6                             generic        Sky Lake-E CBDMA Registers
+/0/4.7                             generic        Sky Lake-E CBDMA Registers
+/0/51                              generic        Sky Lake-E MM/Vt-d Configuration Registers
+/0/52                              generic        Intel Corporation
+/0/53                              generic        Intel Corporation
+/0/54                              generic        Sky Lake-E Ubox Registers
+/0/55                              generic        Sky Lake-E Ubox Registers
+/0/56                              generic        Sky Lake-E Ubox Registers
+/0/103                             bridge         Sky Lake-E PCI Express Root Port 1A
+/0/103/0               enp134s0f0  network        82599ES 10-Gigabit SFI/SFP+ Network Connection
+/0/103/0.1             enp134s0f1  network        82599ES 10-Gigabit SFI/SFP+ Network Connection
+/0/57                              generic        Intel Corporation
+/0/58                              generic        Sky Lake-E RAS Configuration Registers
+/0/59                              generic        Intel Corporation
+/0/5a                              generic        Sky Lake-E CHA Registers
+/0/8.1                             generic        Sky Lake-E CHA Registers
+/0/8.2                             generic        Sky Lake-E CHA Registers
+/0/5b                              generic        Sky Lake-E CHA Registers
+/0/5c                              generic        Sky Lake-E CHA Registers
+/0/5d                              generic        Sky Lake-E CHA Registers
+/0/5e                              generic        Sky Lake-E CHA Registers
+/0/5f                              generic        Sky Lake-E CHA Registers
+/0/60                              generic        Sky Lake-E CHA Registers
+/0/61                              generic        Sky Lake-E CHA Registers
+/0/6a                              generic        Sky Lake-E CHA Registers
+/0/6b                              generic        Sky Lake-E CHA Registers
+/0/6c                              generic        Sky Lake-E CHA Registers
+/0/6d                              generic        Sky Lake-E CHA Registers
+/0/6e                              generic        Sky Lake-E CHA Registers
+/0/6f                              generic        Sky Lake-E CHA Registers
+/0/70                              generic        Sky Lake-E CHA Registers
+/0/71                              generic        Sky Lake-E CHA Registers
+/0/72                              generic        Sky Lake-E CHA Registers
+/0/73                              generic        Sky Lake-E CHA Registers
+/0/74                              generic        Sky Lake-E CHA Registers
+/0/75                              generic        Sky Lake-E CHA Registers
+/0/76                              generic        Sky Lake-E CHA Registers
+/0/77                              generic        Sky Lake-E CHA Registers
+/0/78                              generic        Sky Lake-E PCU Registers
+/0/79                              generic        Sky Lake-E PCU Registers
+/0/7a                              generic        Sky Lake-E PCU Registers
+/0/7b                              generic        Sky Lake-E PCU Registers
+/0/7c                              generic        Sky Lake-E PCU Registers
+/0/7d                              generic        Sky Lake-E PCU Registers
+/0/7e                              generic        Sky Lake-E PCU Registers
+/0/104                             bridge         Sky Lake-E PCI Express Root Port 1A
+/0/104/0                           bridge         PEX 8747 48-Lane, 5-Port PCI Express Gen 3 (8.0 GT/s) Switch
+/0/104/0/8                         bridge         PEX 8747 48-Lane, 5-Port PCI Express Gen 3 (8.0 GT/s) Switch
+/0/104/0/10                        bridge         PEX 8747 48-Lane, 5-Port PCI Express Gen 3 (8.0 GT/s) Switch
+/0/7f                              generic        Intel Corporation
+/0/80                              generic        Sky Lake-E RAS Configuration Registers
+/0/81                              generic        Intel Corporation
+/0/8                               generic        Intel Corporation
+/0/82                              generic        Intel Corporation
+/0/83                              generic        Intel Corporation
+/0/84                              generic        Intel Corporation
+/0/85                              generic        Intel Corporation
+/0/86                              generic        Intel Corporation
+/0/87                              generic        Intel Corporation
+/0/88                              generic        Intel Corporation
+/0/89                              generic        Intel Corporation
+/0/8a                              generic        Intel Corporation
+/0/8b                              generic        Intel Corporation
+/0/8c                              generic        Intel Corporation
+/0/8d                              generic        Intel Corporation
+/0/8e                              generic        Intel Corporation
+/0/8f                              generic        Intel Corporation
+/0/90                              generic        Intel Corporation
+/0/91                              generic        Intel Corporation
+/0/92                              generic        Intel Corporation
+/0/93                              generic        Intel Corporation
+/0/94                              generic        Intel Corporation
+/0/95                              generic        Intel Corporation
+/0/96                              generic        Intel Corporation
+/0/97                              generic        Intel Corporation
+/0/98                              generic        Intel Corporation
+/0/99                              generic        Intel Corporation
+/0/9a                              generic        Intel Corporation
+/0/105                             bridge         Sky Lake-E PCI Express Root Port 1A
+/0/105/0                           bridge         PEX 8747 48-Lane, 5-Port PCI Express Gen 3 (8.0 GT/s) Switch
+/0/105/0/8                         bridge         PEX 8747 48-Lane, 5-Port PCI Express Gen 3 (8.0 GT/s) Switch
+/0/105/0/8/0                       generic        Altera Corporation
+/0/105/0/10                        bridge         PEX 8747 48-Lane, 5-Port PCI Express Gen 3 (8.0 GT/s) Switch
+/0/105/0/10/0                      generic        Altera Corporation
+/0/5                               generic        Intel Corporation
+/0/5.2                             generic        Sky Lake-E RAS Configuration Registers
+/0/5.4                             generic        Intel Corporation
+/0/9b                              generic        Intel Corporation
+/0/9c                              generic        Intel Corporation
+/0/9d                              generic        Intel Corporation
+/0/9e                              generic        Intel Corporation
+/0/9f                              generic        Sky Lake-E M3KTI Registers
+/0/a0                              generic        Sky Lake-E M3KTI Registers
+/0/a1                              generic        Sky Lake-E M3KTI Registers
+/0/a2                              generic        Sky Lake-E M2PCI Registers
+/0/a3                              generic        Sky Lake-E M2PCI Registers
+/0/a4                              generic        Sky Lake-E M2PCI Registers
+/0/a5                              system         PnP device PNP0b00
+/0/a6                              system         PnP device PNP0c02
+/0/a7                              system         PnP device PNP0c02
+/0/a8                              communication  PnP device PNP0501
+/0/a9                              generic        PnP device IPI0001
+/0/aa                              system         PnP device PNP0c02
+/0/ab                              system         PnP device PNP0c02
+/1                                 power          To Be Filled By O.E.M.
+/2                     virbr0-nic  network        Ethernet interface
+/3                     virbr0      network        Ethernet interface
